@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segurança Digital e Direitos na Internet - Guia para a Terceira Idade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ELEMENTOS DE ESTADO PARA NAVEGAÇÃO -->
+  <input type="radio" id="sec-inicio" name="secoes" class="alternador-estado" checked>
+  <input type="radio" id="sec-conselhos" name="secoes" class="alternador-estado">
+  <input type="radio" id="sec-direitos" name="secoes" class="alternador-estado">
+  <input type="radio" id="sec-fraudes" name="secoes" class="alternador-estado">
+
+  <!-- BARRA FIXA DE ACESSIBILIDADE NO TOPO -->
+  <header class="barra-acessibilidade" aria-label="Ferramentas de Acessibilidade">
+    <span>Acessibilidade:</span>
+    <div class="grupo-acessibilidade">
+      <button type="button" id="aumentar-fonte" class="botao-acessibilidade" title="Aumentar o tamanho das letras">A+</button>
+      <button type="button" id="diminuir-fonte" class="botao-acessibilidade" title="Diminuir o tamanho das letras">A-</button>
+      <button type="button" id="btn-ler-voz" class="botao-acessibilidade" title="Ouvir o conteúdo da página">🔊 Ler em Voz Alta</button>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main>
+
+    <!-- BARRA DE MENU SUPERIOR -->
+    <nav class="menu-navegacao" aria-label="Menu Principal">
+      <label for="sec-inicio" class="botao-navegacao">🏠 Início</label>
+      <label for="sec-conselhos" class="botao-navegacao">💡 Conselhos</label>
+      <label for="sec-direitos" class="botao-navegacao">⚖️ Seus Direitos</label>
+      <label for="sec-fraudes" class="botao-navegacao">⚠️ Evitar Fraudes</label>
+      <button type="button" class="botao-navegacao botao-ajuda-menu">📞 Pedir Ajuda</button>
+    </nav>
+
+    <!-- SEÇÃO 1: INÍCIO -->
+    <section id="bloco-inicio" class="bloco-secao">
+      <div class="banner-destaque">
+        <h1 class="titulo-destaque">Segurança e Direitos na Internet</h1>
+        <p class="subtitulo-destaque">
+          Um guia prático, simples e fácil feito para ajudar você a navegar na internet com tranquilidade, proteger suas contas e conhecer os seus direitos digitais.
+        </p>
+        <button type="button" class="botao-ajuda-destaque">🚨 PRECISO DE AJUDA AGORA!</button>
+      </div>
+
+      <h2>O que você encontrará neste portal?</h2>
+      <div class="grade-cartoes">
+        <div class="cartao-informacao">
+          <span class="titulo-cartao">💡 Dicas Rápidas</span>
+          <p>Conselhos valiosos para proteger seu celular, compras e dados pessoais de forma simples.</p>
+        </div>
+        <div class="cartao-informacao">
+          <span class="titulo-cartao">⚖️ Leis e Direitos</span>
+          <p>Conheça as leis brasileiras que garantem sua privacidade, segurança e prioridade na internet.</p>
+        </div>
+        <div class="cartao-informacao">
+          <span class="titulo-cartao">🔍 Identificar Golpes</span>
+          <p>Aprenda a reconhecer situações do dia a dia usadas por golpistas antes que seja tarde.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2: CONSELHOS IMPORTANTES -->
+    <section id="bloco-conselhos" class="bloco-secao">
+      <h2>Conselhos Importantes de Segurança</h2>
+      <p>Siga estas regras simples no seu dia a dia para manter suas contas e seu dinheiro protegidos:</p>
+
+      <div class="grade-cartoes">
+        <div class="cartao-informacao seguro">
+          <span class="titulo-cartao">1. Calma é sua maior aliada</span>
+          <p>Golpistas sempre tentam causar urgência ou medo. Se receber uma mensagem assustadora, pare, respire e não faça nada com pressa.</p>
+        </div>
+        <div class="cartao-informacao seguro">
+          <span class="titulo-cartao">2. Guarde suas senhas</span>
+          <p>Sua senha é pessoal e secreta. Nunca fale sua senha por telefone nem a escreva em papéis soltos deixados perto do celular.</p>
+        </div>
+        <div class="cartao-informacao seguro">
+          <span class="titulo-cartao">3. Desconfie de links soltos</span>
+          <p>Não clique em links enviados por desconhecidos no WhatsApp ou por mensagem de texto (SMS), mesmo que prometam presentes ou descontos.</p>
+        </div>
+        <div class="cartao-informacao seguro">
+          <span class="titulo-cartao">4. Confirme por ligação</span>
+          <p>Se alguém conhecido pedir dinheiro pelo WhatsApp com um número novo, ligue diretamente para o número antigo da pessoa para confirmar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: DIREITOS NA INTERNET -->
+    <section id="bloco-direitos" class="bloco-secao">
+      <h2>Seus Direitos no Ambiente Digital</h2>
+      <p>A internet não é uma terra sem leis. Existem regras no Brasil que protegem os cidadãos, especialmente a população idosa:</p>
+
+      <div class="cartao-informacao cartao-espacado">
+        <span class="titulo-cartao">🛡️ Lei Geral de Proteção de Dados (LGPD)</span>
+        <p>Você tem o direito de saber <strong>quem tem seus dados pessoais</strong> (CPF, telefone, endereço) e exigir que as empresas apaguem suas informações se você não quiser mais utilizá-las.</p>
+      </div>
+      <div class="cartao-informacao cartao-espacado">
+        <span class="titulo-cartao">📜 Marco Civil da Internet</span>
+        <p>Garante que sua navegação é privada e que o acesso à internet deve seguir princípios de proteção, cidadania e respeito à dignidade humana.</p>
+      </div>
+      <div class="cartao-informacao cartao-espacado">
+        <span class="titulo-cartao">🛍️ Código de Defesa do Consumidor (Compras Online)</span>
+        <p>Comprou algo pela internet e se arrependeu ou não era o que esperava? Você tem até <strong>7 dias após receber o produto</strong> para cancelar a compra e receber todo o seu dinheiro de volta.</p>
+      </div>
+      <div class="cartao-informacao cartao-espacado">
+        <span class="titulo-cartao">👵 Estatuto da Pessoa Idosa</span>
+        <p>Protege pessoas com 60 anos ou mais contra discriminação, abusos financeiros e garante atendimento prioritário também nos serviços prestados por canais digitais e bancos.</p>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 4: COMO IDENTIFICAR FRAUDES -->
+    <section id="bloco-fraudes" class="bloco-secao">
+      <h2>Como Identificar Golpes do Dia a Dia</h2>
+      <p>Os criminosos costumam usar situações cotidianas que passam despercebidas. Veja como reconhecer cada uma delas:</p>
+
+      <div class="caso-fraude">
+        <div class="titulo-caso-fraude">
+          <span>📱 Situação 1: "Mensagem de Compra Aprovada no Cartão"</span>
+        </div>
+        <p><strong>O que acontece:</strong> Você recebe uma mensagem no celular dizendo que uma compra de R$ 2.000,00 foi aprovada no seu cartão e dá um número 0800 para cancelar.</p>
+        <div class="sinal-fraude">
+          <strong>⚠️ Sinal de Fraude:</strong> O número 0800 é falso e leva para golpistas que fingem ser do banco para pedir suas senhas.
+          <br><strong>O que fazer:</strong> Ignore a mensagem e confira o extrato no aplicativo do seu banco ou ligue no número que fica no verso do seu cartão.
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL DE AJUDA -->
+  <div class="modal-overlay">
+    <div class="Caixa-Direitos">
+      <div class="modal-cabecalho">
+        <h2>📞 Central de Ajuda e Contatos</h2>
+        <button type="button" class="botao-fechar-modal">Fechar ✖</button>
+      </div>
+      <p>Se você suspeita de um golpe ou precisa de ajuda urgente, entre em contato com os canais oficiais abaixo:</p>
+      
+      <div class="cartao-emergencia">
+        <div>
+          <strong>Polícia Militar (Emergência)</strong>
+          <div class="numero-emergencia">190</div>
+        </div>
+        <a href="tel:190" class="botao-ligar">Ligar Agora</a>
+      </div>
+
+      <div class="cartao-emergencia">
+        <div>
+          <strong>Disque Direitos Humanos</strong>
+          <div class="numero-emergencia">100</div>
+        </div>
+        <a href="tel:100" class="botao-ligar">Ligar Agora</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Portal Informativo de Segurança Digital — Focado na Acessibilidade e Proteção da Terceira Idade.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
